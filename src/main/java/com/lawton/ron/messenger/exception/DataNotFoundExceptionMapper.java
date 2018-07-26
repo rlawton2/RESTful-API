@@ -1,5 +1,8 @@
 package com.lawton.ron.messenger.exception;
-
+/*
+ * created by rlawton
+ * This class maps the DataNotFoundException to the ErrorMessage response.
+ */
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
 import javax.ws.rs.ext.ExceptionMapper;
