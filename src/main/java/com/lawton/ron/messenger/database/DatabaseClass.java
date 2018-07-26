@@ -14,10 +14,10 @@ public class DatabaseClass {
 	private DatabaseClass() {
 		
 	}
-	
+	// Static Maps
 	private static Map<Long, Message> messages = new HashMap<>();
 	private static Map<String, Profile> profiles = new HashMap<>();
-	
+	// Getter methods
 	public static Map<Long, Message> getMessages() {
 		return messages;
 	}
